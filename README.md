@@ -12,5 +12,7 @@ The project has three main parts:
 2.	Probability density function goodness of fit testing
 3.	Aggregated models construction for life and non-life
 4.	Montecarlo simulation
+
+
 With this model, the expected cost will be evaluated together with the VaR (99.5%) and TVaR to quantify the worst-case scenarios.
 
