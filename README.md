@@ -15,3 +15,6 @@ The project has three main parts:
 
 With this model, the expected cost will be evaluated together with the VaR (99.5%) and TVaR to quantify the worst-case scenarios.
 
+## How to run the code
+
+To run the code, simply run the project.R script once. Note that for the data export, the package "writexl" needs to be installed.
