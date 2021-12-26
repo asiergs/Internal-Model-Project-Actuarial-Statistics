@@ -18,4 +18,5 @@ With this model, the expected cost will be evaluated together with the VaR (99.5
 ## How to run the code
 
 To run the code, simply run the project.R script once. The code with the default simulation sizes takes about 10 hours to run. The project_lite.R file is the same code with lower simulation sizes so the time is drastically reduced to about 30 minutes.
+
 Note that for the data export, the package _writexl_ needs to be installed.
