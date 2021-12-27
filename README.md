@@ -13,7 +13,7 @@ The project has three main parts:
 4.	Aggregated models construction for life and non-life
 5.	Montecarlo simulation
 
-With this model, the expected cost will be evaluated together with the VaR (99.5%) and TVaR to quantify the worst-case scenarios.
+With this model, the expected cost will be evaluated together with the VaR<sub>99.5</sub> and TVaR<sub>99.5</sub> to quantify the worst-case scenarios.
 
 ## How to run the code
 
