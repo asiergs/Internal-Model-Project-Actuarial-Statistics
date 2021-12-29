@@ -1,6 +1,9 @@
 ## Internal Model Project. Actuarial statistics
 
 In this Project, an insurance company internal model is constructed considering life and non-life insurances. The objective of the model is to properly evaluate the premium risk (the risk of having more claims than expected) so the economic capital can be estimated.
+
+![alt text](https://raw.githubusercontent.com/asiergs/csv_to_view/main/Economic_Capital.svg?raw=true)
+
 The insurance company to be modelled is composed by the following number of policies:
 -	Car insurances: 25,234
 -	Life insurances: 20,809
