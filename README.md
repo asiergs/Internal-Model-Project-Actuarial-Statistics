@@ -19,7 +19,7 @@ The project has three main parts:
 5.	Montecarlo simulation
 
 With this model, the expected cost will be evaluated together with the VaR<sub>99.5</sub> and TVaR<sub>99.5</sub> to quantify the worst-case scenarios.
-See the document [Internal_Model_Project_Actuarial_Statistics]:(https://www.mozilla.org) for the complete report about the project.
+See the document [Internal_Model_Project_Actuarial_Statistics] (https://www.genome.gov/) for the complete report about the project.
 
 ## How to run the code
 
