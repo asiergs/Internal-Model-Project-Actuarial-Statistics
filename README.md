@@ -15,8 +15,8 @@ The project has three main parts:
 1.	Available data analysis
 2.	Estimation methods validation
 3.	Probability density function goodness of fit testing
-4.	Aggregated models construction for life and non-life
-5.	Montecarlo simulation
+4.	Aggregated models construction for life and non-life insurances
+5.	Montecarlo simulation for the cost estimation
 
 With this model, the expected cost will be evaluated together with the VaR<sub>99.5</sub> and TVaR<sub>99.5</sub> to quantify the worst-case scenarios.
 See the document [Internal_Model_Project_Actuarial_Statistics.pdf](https://github.com/asiergs/Internal-Model-Project-Actuarial-Statistics/blob/main/Internal_Model_Project_Actuarial_Statistics.pdf) for the complete report about the project.
