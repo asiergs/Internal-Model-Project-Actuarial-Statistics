@@ -1628,9 +1628,9 @@ hist(param_exp_est)
 param_exp_interval_95 <- c(quantile(param_exp_est, 0.025),
                            quantile(param_exp_est, 0.975))
 
-# 4. Aggregated model for non-life -------------------------------------------
+# 5. Aggregated model for non-life -------------------------------------------
 
-## 4.1 One person accident report --------------------------------------------
+## 5.1 One person accident report --------------------------------------------
 
 # in order to save computation time, we first create 1M scenarios we will
 # sample to simulate our policies
@@ -1655,7 +1655,7 @@ hist(cost_nl_single, breaks = 100, probability = TRUE, xlab = "Cost",
      xlim = c(0,55000))
 axis(1, at = seq(0, 1.2E5, 0.5E4), labels = seq(0, 1.2E5, 0.5E4))
 
-## 4.2 All policies accident reports -----------------------------------------
+## 5.2 All policies accident reports -----------------------------------------
 
 policies <- 25234
 
@@ -1698,7 +1698,7 @@ est_cost_nl_single*policies
 var(cost_nl)
 var(cost_nl_single)*policies
 
-# 5. Life model --------------------------------------------------------------
+# 6. Life model --------------------------------------------------------------
 
 plot(mort$Age, mort$qx, type = "l", xlab = "Age", ylab = "Death probability",
      col="blue")
@@ -1751,7 +1751,7 @@ mean(deceased)
 sd(deceased)
 sqrt(sum(mort$ni*mort$qx*(1-mort$qx)))
 
-# 6. Life and Non-life aggregated model --------------------------------------
+# 7. Life and Non-life aggregated model --------------------------------------
 
 sim <- 10000000
 
