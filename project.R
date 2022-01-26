@@ -1592,7 +1592,7 @@ results_sev
 
 ## 4.1 Poisson lambda estimation --------------------------------------------
 
-sim_size <- 10000
+sim_size <- 50000
 param_pois_est <- c()
 n <- length(frec)
 
@@ -1611,7 +1611,7 @@ param_pois_interval_95 <- c(quantile(param_pois_est, 0.025),
 
 ## 4.2 Exponential  estimation --------------------------------------------
 
-sim_size <- 10000
+sim_size <- 50000
 param_exp_est <- c()
 n <- length(sev)
 
