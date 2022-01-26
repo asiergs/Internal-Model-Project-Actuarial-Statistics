@@ -15,7 +15,7 @@ The project has three main parts:
 1.	Available data study
 2.	Estimation methods validation
 3.	Probability density function goodness of fit testing
-4.	Estimators 95% condifence interval calculation
+4.	Estimators 95% confidence level interval calculation
 5.	Aggregated models construction for life and non-life insurances
 6.	Montecarlo simulation for the cost estimation
 
