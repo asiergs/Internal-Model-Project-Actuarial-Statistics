@@ -1588,6 +1588,46 @@ results_sev <- data.frame(distribution = c("Lognormal", "Exponential", "Gamma"),
 
 results_sev     
 
+# 4. Estimators confidence intervals ----------------------------------------
+
+## 4.1 Poisson lambda estimation --------------------------------------------
+
+sim_size <- 10000
+param_pois_est <- c()
+n <- length(frec)
+
+for (i in 1:sim_size){
+  bootstrap_sample <- sample(frec,n, replace = TRUE)
+  param_pois_est[i] <- optim(c(1.5), MM_pois, method = "L-BFGS-B",
+                             sample = bootstrap_sample)$par
+}
+
+hist(param_pois_est)
+
+# For the 95% confidence interval
+
+param_pois_interval_95 <- c(quantile(param_pois_est, 0.025),
+                            quantile(param_pois_est, 0.975))
+
+## 4.2 Exponential  estimation --------------------------------------------
+
+sim_size <- 10000
+param_exp_est <- c()
+n <- length(sev)
+
+for (i in 1:sim_size){
+  bootstrap_sample <- sample(sev,n, replace = TRUE)
+  param_exp_est[i] <- optim(c(4000), ML_exp, method = "L-BFGS-B",
+                            sample = bootstrap_sample)$par
+}
+
+hist(param_exp_est)
+
+# For the 95% confidence interval
+
+param_exp_interval_95 <- c(quantile(param_exp_est, 0.025),
+                           quantile(param_exp_est, 0.975))
+
 # 4. Aggregated model for non-life -------------------------------------------
 
 ## 4.1 One person accident report --------------------------------------------
