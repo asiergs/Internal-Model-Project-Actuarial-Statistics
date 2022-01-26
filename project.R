@@ -1602,7 +1602,8 @@ for (i in 1:sim_size){
                       sample = bootstrap_sample)$par
 }
 
-hist(param_pois_est)
+hist(param_pois_est, xlab = expression(hat(lambda)), probability = TRUE,
+     main = "Lambda estimator distribution")
 
 # For the 95% confidence interval
 
@@ -1621,7 +1622,8 @@ for (i in 1:sim_size){
                          sample = bootstrap_sample)$par
 }
 
-hist(param_exp_est)
+hist(param_exp_est, xlab = expression(hat(beta)), probability = TRUE,
+     main = "Beta estimator distribution")
 
 # For the 95% confidence interval
 
