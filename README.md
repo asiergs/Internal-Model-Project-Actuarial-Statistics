@@ -3,7 +3,7 @@
 In this Project, an insurance company internal model is constructed considering life and non-life insurances. The objective of the model is to properly evaluate the premium risk (the risk of having more claims than expected) so the economic capital can be estimated.
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/asiergs/csv_to_view/main/Economic_Capital.svg" alt="2400"/>
+   <img src="https://github.com/asiergs/Internal-Model-Project-Actuarial-Statistics/blob/main/Economic_Capital_img.svg" alt="2400"/>
 </p>
 
 The insurance company to be modelled is composed by the following number of policies:
