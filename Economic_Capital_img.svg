@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="Economic_Capital.svg"
+   sodipodi:docname="Economic_Capital_img.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.4450804"
-     inkscape:cx="293.0374"
-     inkscape:cy="88.749639"
+     inkscape:cx="272.17919"
+     inkscape:cy="88.749638"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="-8"
@@ -217,7 +217,7 @@
        d="M -10.170738,58.629988 V 95.160845"
        id="path286-1" />
     <path
-       style="fill:none;stroke:#575757;stroke-width:0.275;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
+       style="fill:#666666;stroke:#575757;stroke-width:0.275;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
        d="m -40.283603,68.449999 h 28.536125"
        id="path485" />
     <text
